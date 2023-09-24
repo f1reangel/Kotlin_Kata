@@ -1,0 +1,9 @@
+fun repeatStr(r: Int, str: String): String {
+    var i = ""
+    var res = 0
+    while (i < r) {
+        i++
+        res+=str
+    }
+    return res
+}
