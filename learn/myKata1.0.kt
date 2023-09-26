@@ -10,7 +10,7 @@ fun fill(str:List<String>):List<String> {
 }
 fun main() {
     var str = listOf("Wow", "Wow", "GG", "W", "W")
-   	println(fil(str))
+    println(fil(str))
     println(fill(str))
   
 }
