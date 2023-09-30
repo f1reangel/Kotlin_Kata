@@ -31,8 +31,8 @@ fun main() {
             print("Enter an item to add to the box: ")
             towar = readLine() ?: ""
             if (!towar.isNullOrBlank()) {
-                item.deleteList(towar) // Додати товар до списку
-                println("Your list: $item") // Вивести список після додавання товару
+                item.deleteList(towar)
+                println("Your list: $item") 
             }
         } else if (q == "no") {
             println("Enter an item to delete from the box: ")
@@ -42,12 +42,12 @@ fun main() {
             } else {
                 println("LOL, YOU ARE **!?#@!")
                 yesOrNot = false
-                println("Your final list: $item") // Вивести остаточний список перед виходом
+                println("Your final list: $item") 
             }
         } else {
             println("LOL, YOU ARE **!?#@!")
             yesOrNot = false
-            println("Your final list: $item") // Вивести остаточний список перед виходом
+            println("Your final list: $item")
         }
     }
 }
