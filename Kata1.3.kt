@@ -1,5 +1,5 @@
 fun smallEnough(a : IntArray, limit : Int) : Boolean {
-  return a.none { it > limit }
+  return a.all { it > limit }
 }
 
 //Also takes a higher-order function as param to predicate the condition and return 
